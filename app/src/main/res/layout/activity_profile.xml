@@ -18,7 +18,7 @@
     <RelativeLayout
         android:layout_below="@id/toolbar_profile"
         android:layout_width="match_parent"
-        android:layout_height="180dp"
+        android:layout_height="200dp"
         android:background="@color/colorPrimary">
 
         <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -36,6 +36,7 @@
             app:riv_border_width="2dp"/>
 
         <TextView
+            android:id="@+id/nama_mahasiswa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nama Mahasiswa"
@@ -44,6 +45,17 @@
             android:textColor="@color/colorWhite"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/avatar"/>
+
+        <TextView
+            android:id="@+id/nim_mahasiswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15.01.3509"
+            android:layout_marginTop="6dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorWhite"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/nama_mahasiswa"/>
 
     </RelativeLayout>
 
