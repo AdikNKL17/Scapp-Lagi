@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
     public boolean onMenuItemClick(MenuItem item) {
         switch (item.getItemId()){
             case R.id.action_notifikasi:
-                Toast.makeText(this, "Notifikasi",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "com.scapp.adik.scapp.Notifikasi",Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, NotifikasiActivity.class);
                 startActivity(intent);
                 /*break;

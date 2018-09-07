@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground"
+    android:paddingBottom="0dp">
 
-</android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_margin="16dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:riv_oval="true"
+            app:riv_corner_radius="25dip"
+            app:riv_mutate_background="true"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/unnamed"/>
+
+        <TextView
+            android:id="@+id/nama_dosen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:text="Nama Dosen"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/avatar"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/waktu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="07.00"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/avatar"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/nama_dosen"
+            android:layout_marginLeft="32dp"
+            android:textSize="14sp"
+            android:text="Jadwal Matakuliah Algoritma Hari ini dikosongkan, terima kasih lorem ipsum dolor sit amet" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
