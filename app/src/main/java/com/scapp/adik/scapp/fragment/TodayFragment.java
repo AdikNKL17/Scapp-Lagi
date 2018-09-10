@@ -1,5 +1,6 @@
 package com.scapp.adik.scapp.fragment;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -10,6 +11,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.scapp.adik.scapp.Jadwal;
 import com.scapp.adik.scapp.R;
@@ -23,6 +26,8 @@ public class TodayFragment extends Fragment {
     List<Jadwal> jadwalList = new ArrayList<>();
     RecyclerView recyclerView;
     JadwalAdapter jadwalAdapter;
+    TextView namaMakul;
+    RelativeLayout status;
 
     @Nullable
     @Override
@@ -38,7 +43,15 @@ public class TodayFragment extends Fragment {
         recyclerView.setAdapter(jadwalAdapter);
         dataJadwal();
 
-        return view;
+        /*namaMakul = view.findViewById(R.id.makul);
+        status = view.findViewById(R.id.status);
+
+
+        *//*if (namaMakul.getText().toString().equals("Hari ini")){
+            status.setBackgroundColor(Color.BLACK);
+        }*//*
+
+        return view;*/
 
     }
 

@@ -46,7 +46,7 @@ public class NotifikasiActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(notifikasiAdapter);
-
+        recyclerView.addItemDecoration(new Divider(this, LinearLayoutManager.VERTICAL));
         dataNotifikasi();
 
     }
