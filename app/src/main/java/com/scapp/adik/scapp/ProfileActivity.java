@@ -32,7 +32,6 @@ public class ProfileActivity extends AppCompatActivity implements Toolbar.OnMenu
                 onBackPressed();
             }
         });
-
     }
 
 

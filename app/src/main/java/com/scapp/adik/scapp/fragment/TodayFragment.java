@@ -47,11 +47,11 @@ public class TodayFragment extends Fragment {
         status = view.findViewById(R.id.status);
 
 
-        *//*if (namaMakul.getText().toString().equals("Hari ini")){
+        if (namaMakul.getText().toString().equals("Hari ini")){
             status.setBackgroundColor(Color.BLACK);
-        }*//*
+        }*/
 
-        return view;*/
+        return view;
 
     }
 
