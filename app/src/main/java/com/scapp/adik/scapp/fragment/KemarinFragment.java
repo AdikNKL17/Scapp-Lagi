@@ -43,17 +43,17 @@ public class KemarinFragment extends Fragment {
     }
 
     private void dataJadwal(){
-        Jadwal jadwal = new Jadwal(R.mipmap.ava_arap, "Kemarin", "07.00 - 08.40", "Barka");
+        Jadwal jadwal = new Jadwal(R.drawable.unnamed, "Kemarin", "07.00 - 08.40", 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.mipmap.ava_arap, "Algoritma", "07.00 - 08.40", "Barka");
+        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.mipmap.ava_arap, "Algoritma", "07.00 - 08.40", "Barka");
+        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.mipmap.ava_arap, "Algoritma", "07.00 - 08.40", "Barka");
+        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.mipmap.ava_arap, "Algoritma", "07.00 - 08.40", "Barka");
+        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.mipmap.ava_arap, "Algoritma", "07.00 - 08.40", "Barka");
+        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
 
     }

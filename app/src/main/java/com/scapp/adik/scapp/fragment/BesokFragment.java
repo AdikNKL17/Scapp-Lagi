@@ -43,17 +43,17 @@ public class BesokFragment extends Fragment {
     }
 
     private void dataJadwal(){
-        Jadwal jadwal = new Jadwal(R.mipmap.ava_arap, "Besok", "07.00 - 08.40", "Barka");
+        Jadwal jadwal = new Jadwal(R.drawable.unnamed, "Besok", "07.00 - 08.40", 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.mipmap.ava_arap, "Algoritma", "07.00 - 08.40", "Barka");
+        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.mipmap.ava_arap, "Algoritma", "07.00 - 08.40", "Barka");
+        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.mipmap.ava_arap, "Algoritma", "07.00 - 08.40", "Barka");
+        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.mipmap.ava_arap, "Algoritma", "07.00 - 08.40", "Barka");
+        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.mipmap.ava_arap, "Algoritma", "07.00 - 08.40", "Barka");
+        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
 
     }

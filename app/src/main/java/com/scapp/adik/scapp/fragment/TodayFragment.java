@@ -56,17 +56,17 @@ public class TodayFragment extends Fragment {
     }
 
     private void dataJadwal(){
-        Jadwal jadwal = new Jadwal(R.drawable.unnamed, "Hari Ini", "07.00 - 08.40", "Barka");
+        Jadwal jadwal = new Jadwal(R.drawable.unnamed, "Hari Ini", "07.00 - 08.40", 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40", "Barka");
+        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40", "Barka");
+        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40", "Barka");
+        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40", "Barka");
+        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40", "Barka");
+        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
 
     }

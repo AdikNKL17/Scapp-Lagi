@@ -32,7 +32,7 @@ public class JadwalAdapter extends RecyclerView.Adapter<JadwalAdapter.MyViewHold
         holder.makul.setText(jadwal.getMakul());
         holder.jam.setText(jadwal.getJam());
         holder.dosen.setText(jadwal.getDosen());
-
+        holder.durasi.setText(Integer.toString(jadwal.getDurasi()));
     }
 
     @Override
@@ -41,7 +41,7 @@ public class JadwalAdapter extends RecyclerView.Adapter<JadwalAdapter.MyViewHold
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        public TextView makul, jam, dosen;
+        public TextView makul, jam, dosen, durasi;
         public ImageView avatar;
 
         public MyViewHolder(View itemView) {
@@ -50,6 +50,7 @@ public class JadwalAdapter extends RecyclerView.Adapter<JadwalAdapter.MyViewHold
             makul = (TextView)itemView.findViewById(R.id.makul);
             jam = (TextView)itemView.findViewById(R.id.jam);
             dosen = (TextView)itemView.findViewById(R.id.dosen);
+            durasi = (TextView)itemView.findViewById(R.id.durasi);
         }
     }
 

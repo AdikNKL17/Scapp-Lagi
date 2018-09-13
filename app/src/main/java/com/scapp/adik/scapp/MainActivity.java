@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
             }
         });
 
+
         /*recyclerView = (RecyclerView)findViewById(R.id.recycler);
 
         jadwalAdapter = new JadwalAdapter(jadwalList);
@@ -97,6 +98,7 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
         bottomNavigationView.setSelectedItemId(R.id.hari_ini);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(navListener);
+
 
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                 new TodayFragment()).commit();
@@ -145,7 +147,7 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
         return true;
     }
 
-    private void dataJadwal(){
+    /*private void dataJadwal(){
         Jadwal jadwal = new Jadwal(R.mipmap.ava_arap, "Algoritma", "07.00 - 08.40", "Barka");
         jadwalList.add(jadwal);
         jadwal = new Jadwal(R.mipmap.ava_arap, "Algoritma", "07.00 - 08.40", "Barka");
@@ -159,7 +161,7 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
         jadwal = new Jadwal(R.mipmap.ava_arap, "Algoritma", "07.00 - 08.40", "Barka");
         jadwalList.add(jadwal);
 
-    }
+    }*/
 
     private Boolean exit = false;
 
