@@ -43,17 +43,17 @@ public class BesokFragment extends Fragment {
     }
 
     private void dataJadwal(){
-        Jadwal jadwal = new Jadwal(R.drawable.unnamed, "Besok", "07.00 - 08.40", 100, "Barka");
+        Jadwal jadwal = new Jadwal("http://dosen.amikom.ac.id/photo/190302126_1293550240.jpg", "Besok", "07.00 - 08.40", 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
+        jadwal = new Jadwal("http://dosen.amikom.ac.id/photo/190302126_1293550240.jpg", "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
+        jadwal = new Jadwal("http://dosen.amikom.ac.id/photo/190302126_1293550240.jpg", "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
+        jadwal = new Jadwal("http://dosen.amikom.ac.id/photo/190302126_1293550240.jpg", "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
+        jadwal = new Jadwal("http://dosen.amikom.ac.id/photo/190302126_1293550240.jpg", "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
+        jadwal = new Jadwal("http://dosen.amikom.ac.id/photo/190302126_1293550240.jpg", "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
 
     }

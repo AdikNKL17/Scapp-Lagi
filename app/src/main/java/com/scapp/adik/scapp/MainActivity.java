@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
     List<Jadwal> jadwalList = new ArrayList<>();
     RecyclerView recyclerView;
     JadwalAdapter jadwalAdapter;
+    RelativeLayout cariButton;
 
     private DrawerLayout mDrawerLayout;
 
@@ -71,6 +72,15 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
         });
 
         toolbar.setOnMenuItemClickListener(this);
+
+        cariButton = (RelativeLayout)findViewById(R.id.cari_button);
+        cariButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                /*searchView.setVisibility(View.VISIBLE);
+                cariButton.setVisibility(View.INVISIBLE);*/
+            }
+        });
 
 
 

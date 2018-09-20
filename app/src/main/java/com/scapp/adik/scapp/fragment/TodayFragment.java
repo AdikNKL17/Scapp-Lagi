@@ -56,17 +56,17 @@ public class TodayFragment extends Fragment {
     }
 
     private void dataJadwal(){
-        Jadwal jadwal = new Jadwal(R.drawable.unnamed, "Hari Ini", "07.00 - 08.40", 100, "Barka");
+        Jadwal jadwal = new Jadwal("https://images.unsplash.com/photo-1537327022935-f19d8a8b643a", "Hari Ini", "07.00 - 08.40", 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
+        jadwal = new Jadwal("https://images.unsplash.com/photo-1537327022935-f19d8a8b643a", "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
+        jadwal = new Jadwal("https://images.unsplash.com/photo-1537327022935-f19d8a8b643a", "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
+        jadwal = new Jadwal("https://images.unsplash.com/photo-1537327022935-f19d8a8b643a", "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
+        jadwal = new Jadwal("https://images.unsplash.com/photo-1537327022935-f19d8a8b643a", "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
-        jadwal = new Jadwal(R.drawable.unnamed, "Algoritma", "07.00 - 08.40" , 100, "Barka");
+        jadwal = new Jadwal("https://images.unsplash.com/photo-1537327022935-f19d8a8b643a", "Algoritma", "07.00 - 08.40" , 100, "Barka");
         jadwalList.add(jadwal);
 
     }

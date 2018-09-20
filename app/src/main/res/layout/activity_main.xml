@@ -59,7 +59,37 @@
                     android:focusedByDefault="false"
                     app:iconifiedByDefault="false"
                     app:queryHint="Cari mata kuliah"
-                    android:textSize="8sp" />
+                    android:textSize="8sp"
+                    android:visibility="invisible"/>
+                <RelativeLayout
+                    android:id="@+id/cari_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/search_bg"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:selectableItemBackground">
+
+                    <ImageView
+                        android:id="@+id/cari_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_search_black_24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cari mata kuliah"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/cari_icon"
+                        android:layout_marginLeft="16dp"/>
+
+                </RelativeLayout>
             </RelativeLayout>
 
         </LinearLayout>
