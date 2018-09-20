@@ -1,14 +1,14 @@
 package com.scapp.adik.scapp;
 
 public class Jadwal {
-    private String makul, jam, dosen;
-    private int imageUrl, durasi;
+    private String makul, jam, dosen, imageUrl;
+    private int  durasi;
 
     public Jadwal(){
 
     }
 
-    public Jadwal (int imageUrl, String makul, String jam, int durasi, String dosen){
+    public Jadwal (String imageUrl, String makul, String jam, int durasi, String dosen){
         this.imageUrl = imageUrl;
         this.makul = makul;
         this.jam = jam;
@@ -40,11 +40,11 @@ public class Jadwal {
         this.dosen = dosen;
     }
 
-    public int getImageUrl() {
+    public String getImageUrl() {
         return imageUrl;
     }
 
-    public void setImageUrl(int imageUrl) {
+    public void setImageUrl(String imageUrl) {
         this.imageUrl = imageUrl;
     }
 
