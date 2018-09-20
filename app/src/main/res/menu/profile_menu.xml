@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/action_logout"
-        android:icon="@drawable/ic_search_white_24dp"
+        android:icon="@drawable/ic_exit_to_app_white_24dp"
         app:showAsAction="always"
         android:title="Notifikasi" />
 
